@@ -1,0 +1,5 @@
+id	language	file	role	log
+57	TSV	data.tsv	Tab-Separated Value Score Archive	TSV: score archive parsed - 3 records
+58	LOLCODE	joke_lol.lol	Catspeak Esoteric Joke Language	CHEEZBURGER 42
+59	Whitespace	joke_ws.ws	Invisible Spaces and Tabs Joke Language	WS
+60	Malbolge	joke_mal.mal	The Most Complex Impossible Joke Language	Hello, world.
