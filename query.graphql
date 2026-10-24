@@ -1,0 +1,15 @@
+# 46 - GraphQL - API Dynamic Data Query Scheme
+query ArenaDashboard($playerId: ID!) {
+  player(id: $playerId) {
+    handle
+    level
+    inventory(first: 3) {
+      name
+      rarity
+    }
+    activeQuest {
+      title
+      reward
+    }
+  }
+}
