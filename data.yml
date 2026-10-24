@@ -1,0 +1,4 @@
+# 35 - YAML: Modern Resource Map
+module: 35
+language: YAML
+message: "YAML: data.yml online - 5 resources mapped"
