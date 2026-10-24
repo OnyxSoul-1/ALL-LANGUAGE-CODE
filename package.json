@@ -1,0 +1,12 @@
+{
+  "name": "polyglot-arena-package",
+  "version": "41.0.0",
+  "description": "JSON - Alternative Package Dependency Data",
+  "main": "index.html",
+  "scripts": {
+    "arena": "node -e \"console.log('JSON: dependency graph loaded for the Polyglot Arena.')\""
+  },
+  "dependencies": {
+    "arena-core": "^1.0.0"
+  }
+}
