@@ -1,0 +1,16 @@
+// 48 - SASS - Advanced CSS Preprocessor Layout
+$arena-bg: #0b0f14
+$neon: #39ff88
+
+@debug "SASS: Advanced CSS Preprocessor Layout compiled."
+
+.arena-terminal
+  background: $arena-bg
+  color: $neon
+  font-family: monospace
+  padding: 1rem
+
+  .panel
+    border: 1px solid rgba($neon, 0.4)
+    &:hover
+      box-shadow: 0 0 12px $neon
